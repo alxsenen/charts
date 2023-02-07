@@ -3,12 +3,12 @@ entries:
   alexcv:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-07T11:25:02.924754-08:00"
+    created: "2023-02-07T12:08:06.098721-08:00"
     description: A Helm chart for Kubernetes
-    digest: 0a587dae2d70076ab5e78eaf71ee6d7fa39aa3a183af39896d8236cae1ec84ea
+    digest: b94c19099b8ad060db0cce78fc36c7ff701a6b728e67fe72b1657f9c25a82586
     name: alexcv
     type: application
     urls:
-    - https://charts.devsysop.com/alexcv/alexcv-0.1.0.tgz
+    - https://charts.devsysop.com/alexcv-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-07T11:25:02.92416-08:00"
+generated: "2023-02-07T12:08:06.098117-08:00"
