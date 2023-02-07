@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   alexcv:
   - apiVersion: v2
+    appVersion: 1.18.0
+    created: "2023-02-07T12:43:14.671402-08:00"
+    description: A Helm chart for Kubernetes
+    digest: 2237b13422f006f121d11872746743b2ecdd906edb6c41bbca018e79386a2c45
+    name: alexcv
+    type: application
+    urls:
+    - https://charts.devsysop.com/alexcv-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     appVersion: 1.17.0
-    created: "2023-02-07T12:19:28.367477-08:00"
+    created: "2023-02-07T12:43:14.671095-08:00"
     description: A Helm chart for Kubernetes
     digest: 75b0f6731089947d33e5bd2511110326db85783023de8cce613ab9d2fd14aab9
     name: alexcv
@@ -13,7 +23,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-07T12:19:28.367141-08:00"
+    created: "2023-02-07T12:43:14.670781-08:00"
     description: A Helm chart for Kubernetes
     digest: b94c19099b8ad060db0cce78fc36c7ff701a6b728e67fe72b1657f9c25a82586
     name: alexcv
@@ -24,7 +34,7 @@ entries:
   portal:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-02-07T12:19:28.36786-08:00"
+    created: "2023-02-07T12:43:14.672609-08:00"
     description: A Helm chart for Kubernetes
     digest: f4c98fe491a30b361f2263d00ab7e016c851c07e7e3a689245463c77f95b0381
     name: portal
@@ -32,4 +42,4 @@ entries:
     urls:
     - https://charts.devsysop.com/portal-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-07T12:19:28.365248-08:00"
+generated: "2023-02-07T12:43:14.670163-08:00"
