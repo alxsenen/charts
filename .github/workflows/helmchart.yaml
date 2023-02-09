@@ -16,7 +16,8 @@ jobs:
     - name: Set env
       run: |
         echo "Tag name from GITHUB_REF_NAME: $GITHUB_REF_NAME"
-        sed -s 's/__TAG__/$GITHUB_REF_NAME/g' alexcv/Chart.yaml; sed  's/__TAG__/$GITHUB_REF_NAME/g' alexcv/values.yaml
+        sed -i 's/__TAG__/$GITHUB_REF_NAME/g' alexcv/Chart.yaml; sed  's/__TAG__/$GITHUB_REF_NAME/g' alexcv/values.yaml
+        cat alexcv/Chart.yaml
 
     #- name: Adding alexcv repo
     #  run: |
