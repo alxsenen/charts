@@ -17,7 +17,14 @@ jobs:
       env:
         GITHUB_REF_NAME: $GITHUB_REF_NAME
       run: |
-        echo "Tag name from GITHUB_REF_NAME: $GITHUB_REF_NAME"
+        echo '''
+        apiVersion: v2
+        name: alexcv
+        description: Helm chart for alex.devsysop.com
+        type: application
+        version: 0.1.0
+        appVersion: "$GITHUB_REF_NAME"
+        ''' >> alexcv/Chart.yaml
         export $GITHUB_REF_NAME
         sed -i 's/__TAG__/$GITHUB_REF_NAME/g' alexcv/Chart.yaml
         cat alexcv/Chart.yaml
