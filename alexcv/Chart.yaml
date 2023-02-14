@@ -3,4 +3,4 @@ name: alexcv
 description: Helm chart for alex.devsysop.com
 type: application
 version: 0.1.0
-appVersion: "v30"
+appVersion: "stable"
